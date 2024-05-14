@@ -1,0 +1,14 @@
+{
+    "source_folder": "C:\\work\\servtool_166 Write a script for Pattern Search for Liberty Mutual\\New folder\\source_codes",
+    "output_folder": "C:\\work\\servtool_166 Write a script for Pattern Search for Liberty Mutual\\New folder\\PatternOutput",
+    "excluded_extensions": [".jar", ".exe", ".class", ".tar", ".zip", ".rar", ".bkp", ".cab", ".dll", ".doc", ".gz", ".msi", ".xslx"],
+    "regexps": {
+        "Pyspark": ["pyspark"],
+        "SparkSQL": ["sqlContext\\.sql", "spark\\.sql", "SparkDataFrame", "org\\.apache\\.spark\\.sql", "spark\\.implicits"],
+        "SparklyR": ["sparklyr", "spark_connect", "spark_config"],
+        "RSparkling": ["rsparkling"],
+        "General Spark": ["SparkSession", "org\\.apache\\.spark", "SparkContext"]
+    },
+    "skip_folders": ["EMailSend", "Test"],
+    "max_batches": 2
+}
